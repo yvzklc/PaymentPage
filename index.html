@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+    <aside>
+        <div class="left-side">
+            <div class="card-front">
+                <div class="card-logo"></div>
+                <div class="card-logo-small"></div>
+                <div class="card-info">
+                    <p>0000 0000 0000 0000</p>
+                    <span>JANE APPLESEED</span>
+                    <span>00/00</span>
+                </div>
+                <div class="card-back">
+                    <div class="black-side"></div>
+                    <div class="cvc-side">
+                        <p>000</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </aside>
+    <aside>
+        <div class="right-side">
+            <label for="cardholder">CARDHOLDER NAME</label>
+            <br>
+            <br>
+            <input type="text" class="General-info" placeholder="e.g. Jane Appleseed" name="cardholder" id="cardholder">
+            <br>
+            <br>
+            <label for="cardnumber">CARD NUMBER</label>
+            <br>
+            <br>
+            <input type="number" class="General-info" placeholder="e.g. 1234 5678 9123 0512" name="cardnumber"
+                id="cardnumber">
+            <br>
+            <br>
+            <label for="month">EXP. DATE (MM/YY)</label>
+            <label class="cvcc" for="cvc">CVC</label>
+            <br>
+            <br>
+            <input class="birth" type="number" placeholder="MM" name="month" id="month">
+            <input class="birth" type="number" placeholder="YY" name="year" id="year">
+            <input class="special-info" type="number" placeholder="e.g. 123" name="cvc" id="cvc">
+            <br>
+            <button>Confirm</button>
+        </div>
+    </aside>
+</body>
+
+</html>

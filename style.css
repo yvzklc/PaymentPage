@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+.left-side {
+    width: 25rem;
+    height: 100vh;
+    background-image: url(./img/bg-main-desktop.png);
+}
+
+
+.left-side .card-front {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(335deg, rgba(63, 94, 251, 1) 4%, rgba(208, 35, 219, 1) 100%);
+    border-radius: 10px;
+    z-index: 100;
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    width: 25rem;
+    height: 25vh;
+
+}
+
+.left-side .card-front .card-logo {
+    border-radius: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+}
+
+.left-side .card-front .card-logo-small {
+    border: 1px solid white;
+    border-radius: 100px;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.left-side .card-front .card-info {
+    position: absolute;
+    top: 15vh;
+    color: white;
+}
+
+.left-side .card-front .card-info p {
+    letter-spacing: 2.2px;
+    font-size: 1.6rem;
+
+    margin: 0 1.8rem;
+}
+
+.left-side .card-front .card-info span {
+    font-size: 0.8rem;
+
+}
+
+.left-side .card-front .card-info span:nth-child(even) {
+    margin-right: 11rem;
+    margin-left: 2rem;
+}
+
+.left-side .card-back{
+    position: absolute;
+    width: 25rem;
+    height: 25vh;
+    top: 27vh;
+    left: 5vw;
+    background-color: hsl(270, 3%, 87%);
+    border-radius: 10px;
+}
+.left-side .card-back .black-side{
+    background-color: black;
+    height: 5vh;
+    margin-top: 1.5rem;
+}
+.left-side .card-back .cvc-side{
+    background-color: rgb(155, 147, 147);
+    width: 20rem;
+    height: 4vh;
+    border-radius: 5px;
+    margin-left: 2.2rem ;
+    margin-top: 1.5rem;
+}
+.left-side .card-back .cvc-side p{
+    margin-left: 18rem;
+    padding-top: 0.6rem;
+    font-size: 0.8rem;
+    color: white;
+}
+.right-side {
+    position: absolute;
+    right: 25%;
+    top: 30%;
+}
+
+.right-side input {
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    height: 1.8rem;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.right-side .General-info {
+    width: 25rem;
+}
+
+.right-side .birth {
+    width: 5rem;
+}
+
+.right-side .special-info {
+    margin-left: 1.8rem;
+}
+
+.right-side .cvcc {
+    margin-left: 4rem;
+}
+
+.right-side button {
+    margin-top: 2rem;
+    width: 26.3rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    border: none;
+}
+
+.right-side button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 11px 4px 66px 18px rgba(33, 9, 47, 0.75);
+    -webkit-box-shadow: 11px 4px 66px 18px rgba(33, 9, 47, 0.75);
+    -moz-box-shadow: 11px 4px 66px 18px rgba(33, 9, 47, 0.75);
+    border: 1px solid rgba(33, 9, 47, 0.75);
+    letter-spacing: 4px;
+    transition: 1.5s;
+    cursor: pointer;
+}

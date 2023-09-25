@@ -1,0 +1,15 @@
+white{
+   background-color: hsl(0, 0%, 100%); 
+}
+
+lightviolet{
+    background-color: hsl(270, 3%, 87%);
+}
+
+darkviolet{
+    background-color: hsl(279, 6%, 55%);
+}
+
+verydark{
+    background-color: hsl(278, 68%, 11%);
+}
