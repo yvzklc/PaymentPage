@@ -25,8 +25,9 @@ body {
     border-radius: 10px;
     z-index: 100;
     position: absolute;
-    top: 30vh;
-    left: 10vw;
+    left: 20%;
+    top: 38%;
+    transform: translate(-50%,-50%);
     width: 25rem;
     height: 25vh;
 
@@ -105,8 +106,9 @@ body {
 }
 .right-side {
     position: absolute;
-    right: 25%;
-    top: 30%;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .right-side input {
